@@ -1,2 +1,2 @@
 # Portfolio-Frontend
-Portfolio website realed to Frontend 
+Portfolio website realated to Frontend 
