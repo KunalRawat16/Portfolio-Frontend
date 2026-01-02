@@ -12,7 +12,7 @@ export default function NavBar() {
   const timerId = useRef(null);
 
   useEffect(() => {
-    const homeSection = document.querySelector(".Home");
+    const homeSection = document.querySelector("#Home");
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
