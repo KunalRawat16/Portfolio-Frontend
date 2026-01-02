@@ -1,10 +1,10 @@
 import React, { useState, useMemo } from "react";
-import {FaGithub, FaLinkedin, FaXTwitter}
+import {FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { motion } from "framer-motion";
 import ParticlesBackground from "../Components/ParticlesBackground"; // Ensure this path matches your file structure
 
 const socials = [
-  {    icon :  "FaXTwitter", label : "x", href : " "},
+  {    icon :  "FaTwitter", label : "x", href : " "},
   {    icon :  "FaLinkedin", label : "LinkedIn", href : " "},
   {    icon :  "FaGithub", label : "GitHub", href : " "},
 ]
@@ -80,7 +80,7 @@ const Home = () => {
               >
                 <span>{roles[index].substring(0, subIndex)}</span>
                 <span
-                  className="inline-block w-[2px] ml-1 bg-white animate-pulse align-middle"
+                  className="inline-block w-0.5 ml-1 bg-white animate-pulse align-middle"
                   style={{ height: "1em" }}
                 ></span>
               </motion.div>
